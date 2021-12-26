@@ -1,0 +1,8 @@
+// I have made a tic tac toe game with the help of code with harry video
+# Learnings 
+1. How to add music to the the website 
+2. how to handle elements in the array with the help of the function 
+3. I learned media queries a little bit in css line 110
+4. How to get elements by tag name 
+5. how to change css using js
+Over all It was a great #experience 

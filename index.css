@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Fruktur&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=Fruktur&family=Permanent+Marker&family=Press+Start+2P&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: pink;
+}
+nav ul{
+    list-style: none;
+}
+nav{
+    font-family: 'Fruktur', cursive;
+    font-size: 4vw;
+    color: pink;
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 380px;
+    padding-top: 8px;
+    padding-bottom: 8px; */
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+.gameContainer{
+    /* margin: 20px; */
+    margin-top: 4px;
+    background-color: black;
+    display: flex;
+    
+}
+.container{
+    /* align-items: center; */
+    padding: 50px;
+    border: 2px solid pink;
+    width: 40vw;
+    font-family: 'Fruktur', cursive;
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    color: pink;
+}
+.container div{
+    border: 2px solid pink;
+    display: flex;
+    font-size: 6vw;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: teal;
+    color: wheat;
+}
+.imgbox img{
+    width: 0vw;
+    transition: width 1s ease-in-out;
+}
+.gameinfo{
+    border: 2px solid pink;
+    width: 60vw;
+    background-color: black;
+    padding: 20px;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    color: pink;
+    /* font-family: 'Ceviche One', cursive; */
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    /* font-family: 'Ceviche One', cursive; */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3vw;
+    transition: font-size 1s ease-in-out;
+    color: pink;
+}
+#reset{
+    /* font-family: 'Ceviche One', cursive; */
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 20px;
+    height: 6vw;
+    width: 11vw;
+    font-size: 2vw;
+    background-color: pink;
+}
+
+@media screen and (max-width: 700px){
+    .gameContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
